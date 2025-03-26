@@ -6,4 +6,4 @@ Disclaimer & User Consent: Before starting, the script prints a detailed disclai
 
 Duration Input: The script asks for the duration (in seconds) during which it should log keystrokes. It then converts this input into an integer and runs the keylogger for that period.
 
-Listener Setup & Execution: A pynput.keyboard.Listener is started in the background to capture keystrokes. The script uses a while loop (with a simple time.sleep(1)) to keep the program running until the specified duration has passed, after which the listener is stopped
+Listener Setup & Execution: A pynput.keyboard.Listener is started in the background to capture keystrokes. The script uses a while loop (with a simple time.sleep(1)) to keep the program running until the specified duration has passed, after which the listener is stopped.
